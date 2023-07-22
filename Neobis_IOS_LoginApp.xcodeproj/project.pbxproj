@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046CF73D2A6BEEC60050536D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CF73C2A6BEEC60050536D /* AppDelegate.swift */; };
+		046CF73F2A6BEEC60050536D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CF73E2A6BEEC60050536D /* SceneDelegate.swift */; };
+		046CF7412A6BEEC60050536D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CF7402A6BEEC60050536D /* ViewController.swift */; };
+		046CF7442A6BEEC60050536D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046CF7422A6BEEC60050536D /* Main.storyboard */; };
+		046CF7462A6BEEC70050536D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046CF7452A6BEEC70050536D /* Assets.xcassets */; };
+		046CF7492A6BEEC70050536D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046CF7472A6BEEC70050536D /* LaunchScreen.storyboard */; };
+		046CF7542A6BEEC70050536D /* Neobis_IOS_LoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CF7532A6BEEC70050536D /* Neobis_IOS_LoginAppTests.swift */; };
+		046CF75E2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CF75D2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.swift */; };
+		046CF7602A6BEEC70050536D /* Neobis_IOS_LoginAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CF75F2A6BEEC70050536D /* Neobis_IOS_LoginAppUITestsLaunchTests.swift */; };
+		046CF76D2A6BF17F0050536D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CF76C2A6BF17F0050536D /* CustomTextField.swift */; };
+		046CF76F2A6BF1DE0050536D /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CF76E2A6BF1DE0050536D /* SignUpButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046CF7502A6BEEC70050536D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046CF7312A6BEEC60050536D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046CF7382A6BEEC60050536D;
+			remoteInfo = Neobis_IOS_LoginApp;
+		};
+		046CF75A2A6BEEC70050536D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046CF7312A6BEEC60050536D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046CF7382A6BEEC60050536D;
+			remoteInfo = Neobis_IOS_LoginApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046CF7392A6BEEC60050536D /* Neobis_IOS_LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_IOS_LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046CF73C2A6BEEC60050536D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046CF73E2A6BEEC60050536D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046CF7402A6BEEC60050536D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046CF7432A6BEEC60050536D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046CF7452A6BEEC70050536D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046CF7482A6BEEC70050536D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046CF74A2A6BEEC70050536D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046CF74F2A6BEEC70050536D /* Neobis_IOS_LoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_IOS_LoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046CF7532A6BEEC70050536D /* Neobis_IOS_LoginAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_IOS_LoginAppTests.swift; sourceTree = "<group>"; };
+		046CF7592A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_IOS_LoginAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046CF75D2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_IOS_LoginAppUITests.swift; sourceTree = "<group>"; };
+		046CF75F2A6BEEC70050536D /* Neobis_IOS_LoginAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_IOS_LoginAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		046CF76C2A6BF17F0050536D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		046CF76E2A6BF1DE0050536D /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046CF7362A6BEEC60050536D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046CF74C2A6BEEC70050536D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046CF7562A6BEEC70050536D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046CF7302A6BEEC60050536D = {
+			isa = PBXGroup;
+			children = (
+				046CF73B2A6BEEC60050536D /* Neobis_IOS_LoginApp */,
+				046CF7522A6BEEC70050536D /* Neobis_IOS_LoginAppTests */,
+				046CF75C2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests */,
+				046CF73A2A6BEEC60050536D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046CF73A2A6BEEC60050536D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046CF7392A6BEEC60050536D /* Neobis_IOS_LoginApp.app */,
+				046CF74F2A6BEEC70050536D /* Neobis_IOS_LoginAppTests.xctest */,
+				046CF7592A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046CF73B2A6BEEC60050536D /* Neobis_IOS_LoginApp */ = {
+			isa = PBXGroup;
+			children = (
+				046CF73C2A6BEEC60050536D /* AppDelegate.swift */,
+				046CF73E2A6BEEC60050536D /* SceneDelegate.swift */,
+				046CF7402A6BEEC60050536D /* ViewController.swift */,
+				046CF7422A6BEEC60050536D /* Main.storyboard */,
+				046CF76E2A6BF1DE0050536D /* SignUpButton.swift */,
+				046CF76C2A6BF17F0050536D /* CustomTextField.swift */,
+				046CF7452A6BEEC70050536D /* Assets.xcassets */,
+				046CF7472A6BEEC70050536D /* LaunchScreen.storyboard */,
+				046CF74A2A6BEEC70050536D /* Info.plist */,
+			);
+			path = Neobis_IOS_LoginApp;
+			sourceTree = "<group>";
+		};
+		046CF7522A6BEEC70050536D /* Neobis_IOS_LoginAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				046CF7532A6BEEC70050536D /* Neobis_IOS_LoginAppTests.swift */,
+			);
+			path = Neobis_IOS_LoginAppTests;
+			sourceTree = "<group>";
+		};
+		046CF75C2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046CF75D2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.swift */,
+				046CF75F2A6BEEC70050536D /* Neobis_IOS_LoginAppUITestsLaunchTests.swift */,
+			);
+			path = Neobis_IOS_LoginAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046CF7382A6BEEC60050536D /* Neobis_IOS_LoginApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046CF7632A6BEEC70050536D /* Build configuration list for PBXNativeTarget "Neobis_IOS_LoginApp" */;
+			buildPhases = (
+				046CF7352A6BEEC60050536D /* Sources */,
+				046CF7362A6BEEC60050536D /* Frameworks */,
+				046CF7372A6BEEC60050536D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neobis_IOS_LoginApp;
+			productName = Neobis_IOS_LoginApp;
+			productReference = 046CF7392A6BEEC60050536D /* Neobis_IOS_LoginApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046CF74E2A6BEEC70050536D /* Neobis_IOS_LoginAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046CF7662A6BEEC70050536D /* Build configuration list for PBXNativeTarget "Neobis_IOS_LoginAppTests" */;
+			buildPhases = (
+				046CF74B2A6BEEC70050536D /* Sources */,
+				046CF74C2A6BEEC70050536D /* Frameworks */,
+				046CF74D2A6BEEC70050536D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046CF7512A6BEEC70050536D /* PBXTargetDependency */,
+			);
+			name = Neobis_IOS_LoginAppTests;
+			productName = Neobis_IOS_LoginAppTests;
+			productReference = 046CF74F2A6BEEC70050536D /* Neobis_IOS_LoginAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046CF7582A6BEEC70050536D /* Neobis_IOS_LoginAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046CF7692A6BEEC70050536D /* Build configuration list for PBXNativeTarget "Neobis_IOS_LoginAppUITests" */;
+			buildPhases = (
+				046CF7552A6BEEC70050536D /* Sources */,
+				046CF7562A6BEEC70050536D /* Frameworks */,
+				046CF7572A6BEEC70050536D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046CF75B2A6BEEC70050536D /* PBXTargetDependency */,
+			);
+			name = Neobis_IOS_LoginAppUITests;
+			productName = Neobis_IOS_LoginAppUITests;
+			productReference = 046CF7592A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046CF7312A6BEEC60050536D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					046CF7382A6BEEC60050536D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					046CF74E2A6BEEC70050536D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 046CF7382A6BEEC60050536D;
+					};
+					046CF7582A6BEEC70050536D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 046CF7382A6BEEC60050536D;
+					};
+				};
+			};
+			buildConfigurationList = 046CF7342A6BEEC60050536D /* Build configuration list for PBXProject "Neobis_IOS_LoginApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046CF7302A6BEEC60050536D;
+			productRefGroup = 046CF73A2A6BEEC60050536D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046CF7382A6BEEC60050536D /* Neobis_IOS_LoginApp */,
+				046CF74E2A6BEEC70050536D /* Neobis_IOS_LoginAppTests */,
+				046CF7582A6BEEC70050536D /* Neobis_IOS_LoginAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046CF7372A6BEEC60050536D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046CF7492A6BEEC70050536D /* LaunchScreen.storyboard in Resources */,
+				046CF7462A6BEEC70050536D /* Assets.xcassets in Resources */,
+				046CF7442A6BEEC60050536D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046CF74D2A6BEEC70050536D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046CF7572A6BEEC70050536D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046CF7352A6BEEC60050536D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046CF76D2A6BF17F0050536D /* CustomTextField.swift in Sources */,
+				046CF7412A6BEEC60050536D /* ViewController.swift in Sources */,
+				046CF73D2A6BEEC60050536D /* AppDelegate.swift in Sources */,
+				046CF73F2A6BEEC60050536D /* SceneDelegate.swift in Sources */,
+				046CF76F2A6BF1DE0050536D /* SignUpButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046CF74B2A6BEEC70050536D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046CF7542A6BEEC70050536D /* Neobis_IOS_LoginAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046CF7552A6BEEC70050536D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046CF7602A6BEEC70050536D /* Neobis_IOS_LoginAppUITestsLaunchTests.swift in Sources */,
+				046CF75E2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046CF7512A6BEEC70050536D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046CF7382A6BEEC60050536D /* Neobis_IOS_LoginApp */;
+			targetProxy = 046CF7502A6BEEC70050536D /* PBXContainerItemProxy */;
+		};
+		046CF75B2A6BEEC70050536D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046CF7382A6BEEC60050536D /* Neobis_IOS_LoginApp */;
+			targetProxy = 046CF75A2A6BEEC70050536D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046CF7422A6BEEC60050536D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046CF7432A6BEEC60050536D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046CF7472A6BEEC70050536D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046CF7482A6BEEC70050536D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046CF7612A6BEEC70050536D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046CF7622A6BEEC70050536D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046CF7642A6BEEC70050536D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_IOS_LoginApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-IOS-LoginApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046CF7652A6BEEC70050536D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_IOS_LoginApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-IOS-LoginApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046CF7672A6BEEC70050536D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-IOS-LoginAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neobis_IOS_LoginApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neobis_IOS_LoginApp";
+			};
+			name = Debug;
+		};
+		046CF7682A6BEEC70050536D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-IOS-LoginAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neobis_IOS_LoginApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neobis_IOS_LoginApp";
+			};
+			name = Release;
+		};
+		046CF76A2A6BEEC70050536D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-IOS-LoginAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neobis_IOS_LoginApp;
+			};
+			name = Debug;
+		};
+		046CF76B2A6BEEC70050536D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-IOS-LoginAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neobis_IOS_LoginApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046CF7342A6BEEC60050536D /* Build configuration list for PBXProject "Neobis_IOS_LoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046CF7612A6BEEC70050536D /* Debug */,
+				046CF7622A6BEEC70050536D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046CF7632A6BEEC70050536D /* Build configuration list for PBXNativeTarget "Neobis_IOS_LoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046CF7642A6BEEC70050536D /* Debug */,
+				046CF7652A6BEEC70050536D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046CF7662A6BEEC70050536D /* Build configuration list for PBXNativeTarget "Neobis_IOS_LoginAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046CF7672A6BEEC70050536D /* Debug */,
+				046CF7682A6BEEC70050536D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046CF7692A6BEEC70050536D /* Build configuration list for PBXNativeTarget "Neobis_IOS_LoginAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046CF76A2A6BEEC70050536D /* Debug */,
+				046CF76B2A6BEEC70050536D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046CF7312A6BEEC60050536D /* Project object */;
+}
