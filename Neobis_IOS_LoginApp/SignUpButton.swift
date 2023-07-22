@@ -1,7 +1,6 @@
-//
+//  By Askar Soronbekov
 //  SignUpButton.swift
 //  Neobis_IOS_LoginApp
-//
 
 import UIKit
 

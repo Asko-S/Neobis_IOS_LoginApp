@@ -1,4 +1,4 @@
-//
+//  By Askar Soronbekov
 //  CustomTextField.swift
 //  Neobis_IOS_LoginApp
 
@@ -12,8 +12,6 @@ class CustomTextField: UITextField {
         
         layer.cornerRadius = 25
         
-        
     }
-    
     
 }

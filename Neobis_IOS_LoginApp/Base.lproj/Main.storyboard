@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,17 +12,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Neobis_IOS_LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="O3n-PD-mV2">
-                                <rect key="frame" x="0.0" y="45" width="320" height="523"/>
+                                <rect key="frame" x="0.0" y="84" width="393" height="709"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Wc-gB-C18">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="envelope.open" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kbe-AQ-uVL">
-                                                <rect key="frame" x="100" y="-2" width="120" height="151.5"/>
+                                                <rect key="frame" x="136.66666666666666" y="-1.6666666666666714" width="119.99999999999997" height="151.00000000000006"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="OcY-XV-vkc"/>
@@ -32,16 +32,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="KJ8-RG-bnj">
-                                        <rect key="frame" x="0.0" y="150" width="320" height="373"/>
+                                        <rect key="frame" x="0.0" y="150" width="393" height="559"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="KUD-iF-CYn">
-                                                <rect key="frame" x="30" y="0.0" width="260" height="373"/>
+                                                <rect key="frame" x="30" y="0.0" width="333" height="559"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uVq-36-MCL">
-                                                        <rect key="frame" x="0.0" y="0.0" width="260" height="41"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="333" height="78.333333333333329"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hId-x0-wTv" customClass="CustomTextField" customModule="Neobis_IOS_LoginApp" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="0.0" width="260" height="41"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="333" height="78.333333333333329"/>
                                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="41" id="yty-7h-Do9"/>
@@ -52,10 +52,10 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zL8-Pl-MOH">
-                                                        <rect key="frame" x="0.0" y="83" width="260" height="41"/>
+                                                        <rect key="frame" x="0.0" y="120.33333333333331" width="333" height="78"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fck-Zf-ttA" customClass="CustomTextField" customModule="Neobis_IOS_LoginApp" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="0.0" width="260" height="41"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="333" height="78"/>
                                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="41" id="lc2-7c-8yj"/>
@@ -66,10 +66,10 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lzN-9x-sCc">
-                                                        <rect key="frame" x="0.0" y="166" width="260" height="41"/>
+                                                        <rect key="frame" x="0.0" y="240.33333333333334" width="333" height="78.333333333333343"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ispum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHw-tv-FBX">
-                                                                <rect key="frame" x="0.0" y="0.0" width="260" height="41"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="333" height="78.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -77,10 +77,10 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TYe-t9-dQr">
-                                                        <rect key="frame" x="0.0" y="249" width="260" height="41"/>
+                                                        <rect key="frame" x="0.0" y="360.66666666666663" width="333" height="78"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODa-0l-owv" customClass="SignUpButton" customModule="Neobis_IOS_LoginApp" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="0.0" width="260" height="41"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="333" height="78"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="41" id="hQf-Me-fIb"/>
@@ -93,10 +93,10 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vov-oa-t0R">
-                                                        <rect key="frame" x="0.0" y="332" width="260" height="41"/>
+                                                        <rect key="frame" x="0.0" y="480.66666666666657" width="333" height="78.333333333333314"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIT-PD-VKc">
-                                                                <rect key="frame" x="0.0" y="0.0" width="260" height="41"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="333" height="78.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>

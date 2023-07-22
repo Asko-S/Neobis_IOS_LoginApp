@@ -1,3 +1,8 @@
+//  By Askar Soronbekov
+//  Neobis_IOS_LoginApp
+//  23/07/2023
+
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -15,24 +20,6 @@ class ViewController: UIViewController {
                 username.attributedPlaceholder = placeholderText
                 let placeholderTextPassword = NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
                 password.attributedPlaceholder = placeholderTextPassword
-                
-        let coloredSafeAreaView = UIView()
-               coloredSafeAreaView.backgroundColor = UIColor.darkGray // Set the color to dark grey
-               coloredSafeAreaView.translatesAutoresizingMaskIntoConstraints = false
-               
-               // Add the colored view as a subview of the view controller's view
-               view.addSubview(coloredSafeAreaView)
-               
-               // Position the colored view behind all other views
-               view.sendSubviewToBack(coloredSafeAreaView)
-               
-               // Set constraints to match the safe area insets
-               NSLayoutConstraint.activate([
-                   coloredSafeAreaView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-                   coloredSafeAreaView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
-                   coloredSafeAreaView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
-                   coloredSafeAreaView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
-               ])
         
     }
     

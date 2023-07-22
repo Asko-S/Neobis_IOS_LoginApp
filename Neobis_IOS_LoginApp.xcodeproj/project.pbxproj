@@ -53,6 +53,8 @@
 		046CF75F2A6BEEC70050536D /* Neobis_IOS_LoginAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_IOS_LoginAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		046CF76C2A6BF17F0050536D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		046CF76E2A6BF1DE0050536D /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		04CFDC212A6C82C6002E9C86 /* LoginAppPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginAppPic.png; path = ../../LoginAppPic.png; sourceTree = "<group>"; };
+		04CFDC222A6C82DA002E9C86 /* LoginAppPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginAppPic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		046CF7302A6BEEC60050536D = {
 			isa = PBXGroup;
 			children = (
+				04CFDC222A6C82DA002E9C86 /* LoginAppPic.png */,
 				046CF73B2A6BEEC60050536D /* Neobis_IOS_LoginApp */,
 				046CF7522A6BEEC70050536D /* Neobis_IOS_LoginAppTests */,
 				046CF75C2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests */,
@@ -129,6 +132,7 @@
 			children = (
 				046CF75D2A6BEEC70050536D /* Neobis_IOS_LoginAppUITests.swift */,
 				046CF75F2A6BEEC70050536D /* Neobis_IOS_LoginAppUITestsLaunchTests.swift */,
+				04CFDC212A6C82C6002E9C86 /* LoginAppPic.png */,
 			);
 			path = Neobis_IOS_LoginAppUITests;
 			sourceTree = "<group>";
